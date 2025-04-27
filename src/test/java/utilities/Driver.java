@@ -7,6 +7,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Driver {
 
@@ -17,6 +19,9 @@ public class Driver {
     private Driver() { }
 
     public static WebDriver getDriver() {
+
+        final ChromeOptions chromeOptions = getChromeOptions();
+
         // If no WebDriver instance is assigned to the current thread, create a new one
         if (driverThread.get() == null) {
             String browser = ConfigReader.getProperty("browser");
@@ -32,7 +37,7 @@ public class Driver {
                     driverThread.set(new ChromeDriver(new ChromeOptions().addArguments("--headless")));
                     break;
                 default:
-                    driverThread.set(new ChromeDriver());
+                    driverThread.set(new ChromeDriver(getChromeOptions()));
             }
 
             // WebDriver configuration common for all instances
@@ -43,6 +48,17 @@ public class Driver {
 
         // Return the WebDriver instance specific to the current thread
         return driverThread.get();
+    }
+
+    private static ChromeOptions getChromeOptions() {
+        final Map<String, Object> chromePrefs = new HashMap<>();   // This option for "the password you just used was found in a data breach" pop up on chrome
+        chromePrefs.put("credentials_enable_service", false);
+        chromePrefs.put("profile.password_manager_enabled", false);
+        chromePrefs.put("profile.password_manager_leak_detection", false); // <======== This is the important one
+
+        final ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setExperimentalOption("prefs", chromePrefs);
+        return chromeOptions;
     }
 
     public static void closeDriver() {

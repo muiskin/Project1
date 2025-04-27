@@ -14,7 +14,8 @@ Feature: Registration
     And enter submit button
     Then assert that logout button is displayed
     And close driver
-    And assert that the user create via API
+    And assert that the user login via API
+
 
   @US001EmptyFirstname
   Scenario: User cannot create account if firstname is empty
@@ -25,7 +26,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "firstName"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
 #  @US001FirstnameContainsSpecialCharacters  //This Sign up page is accept firstname with special characters
 #  Scenario: User cannot create account if firstname contains special characters
@@ -56,7 +57,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "lastName"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
 #  @US001LastnameContainsSpecialCharacters //This Sign up page is accept lastname with special characters
 #  Scenario: User cannot create account if lastname contains special characters
@@ -87,7 +88,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "Email is invalid"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
   @US001EmailWithoutDomain
   Scenario: User cannot create account with email missing domain
@@ -98,7 +99,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "Email is invalid"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
   @US001EmptyEmail
   Scenario: User cannot create account if email is empty
@@ -109,7 +110,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "Email is invalid"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
   @US001PasswordLessThan7
   Scenario: User cannot create account if password is less than 7 characters
@@ -120,7 +121,7 @@ Feature: Registration
     And enter submit button
     Then assert that error message is contains "shorter than the minimum allowed length (7)"
     And close driver
-    And assert that the user cannot created via API
+    And assert that the user cannot login via API
 
 #  @US001EmailMissingUppercase  //This Sign up page is accept password without uppercase letter
 #  Scenario: User cannot create account if password is missing uppercase letter

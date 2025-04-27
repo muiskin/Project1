@@ -1,18 +1,19 @@
 package stepdefinitions;
 
 import com.github.javafaker.Faker;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.AllPages;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ScenarioContext;
 
 public class RegistrationStepDefinitions {
 
     AllPages allPages = new AllPages();
-    public static String email;
-    public static String password;
+
 
     @Given("user goes to home page")
     public void user_goes_to_home_page() {
@@ -22,7 +23,7 @@ public class RegistrationStepDefinitions {
     @When("user clicks the sign up page")
     public void user_clicks_the_sign_up_page() {
         allPages = new AllPages();
-        allPages.getClHomePage().signupButton.click();
+        allPages.getclLoginPage().signupButton.click();
     }
 
     @When("enter firstname {string}")
@@ -41,11 +42,12 @@ public class RegistrationStepDefinitions {
     public void enter_email(String email) {
         allPages = new AllPages();
         if (email.equalsIgnoreCase("Faker")) {
-            this.email = Faker.instance().internet().emailAddress();
-            allPages.getClSignupPage().email.sendKeys(this.email);
+            String FakeEmail = Faker.instance().internet().emailAddress();
+            allPages.getClSignupPage().email.sendKeys(FakeEmail);
+            ScenarioContext.set("email",FakeEmail);
         } else {
             allPages.getClSignupPage().email.sendKeys(email);
-            this.email = email;
+            ScenarioContext.set("email",email);
         }
 
     }
@@ -53,8 +55,8 @@ public class RegistrationStepDefinitions {
     @When("enter password {string}")
     public void enter_password(String password) {
         allPages = new AllPages();
-        this.password = password;
         allPages.getClSignupPage().password.sendKeys(password);
+        ScenarioContext.set("password",password);
 
     }
 
@@ -67,7 +69,7 @@ public class RegistrationStepDefinitions {
     @Then("assert that logout button is displayed")
     public void assertThatLogoutButtonIsDisplayed() {
         allPages = new AllPages();
-        assert allPages.getContactListPage().logoutButton.isDisplayed();
+        assert allPages.getCLHomePage().logoutButton.isDisplayed();
     }
 
     @Then("close driver")
@@ -82,4 +84,5 @@ public class RegistrationStepDefinitions {
         allPages = new AllPages();
         assert allPages.getClSignupPage().error.getText().contains(errorFirstname);
     }
+
 }

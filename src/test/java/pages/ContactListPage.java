@@ -5,12 +5,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class ContactListPage {
 
-    public ContactListPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
+    public ContactListPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "logout")
-    public WebElement logoutButton;
+    @FindBy (id = "add-contact")
+    public WebElement addContact;
+
+    @FindBy (xpath = "//*[@id=\"myTable\"]")
+    public WebElement webTable;
+
+
 }
