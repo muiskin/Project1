@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.Runner" time="97.863" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.Runner" time="9.424" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\U97\AppData\Local\Temp\surefire12372236808609879049\surefirebooter-20250424051053513_3.jar C:\Users\U97\AppData\Local\Temp\surefire12372236808609879049 2025-04-24T05-10-53_026-jvmRun1 surefire-20250424051053513_1tmp surefire_0-20250424051053513_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\U97\AppData\Local\Temp\surefire6755419425011152649\surefirebooter-20250427044815593_3.jar C:\Users\U97\AppData\Local\Temp\surefire6755419425011152649 2025-04-27T04-48-15_482-jvmRun1 surefire-20250427044815593_1tmp surefire_0-20250427044815593_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\U97\IdeaProjects\Project1\target\test-classes;C:\Users\U97\IdeaProjects\Project1\target\classes;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\U97\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\U97\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\U97\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\U97\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\U97\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\U97\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\U97\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\U97\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\U97\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\U97\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\U97\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\U97\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\U97\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-java\7.19.0\cucumber-java-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-core\7.19.0\cucumber-core-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-gherkin\7.19.0\cucumber-gherkin-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.19.0\cucumber-gherkin-messages-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\U97\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\U97\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\U97\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\U97\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\U97\.m2\repository\io\cucumber\datatable\7.19.0\datatable-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-plugin\7.19.0\cucumber-plugin-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\docstring\7.19.0\docstring-7.19.0.jar;C:\Users\U97\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\U97\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\U97\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\U97\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\U97\.m2\repository\io\cucumber\cucumber-junit\7.19.0\cucumber-junit-7.19.0.jar;C:\Users\U97\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\U97\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\U97\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\U97\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\U97\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\U97\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\U97\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\U97\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\U97\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\U97\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\U97\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\U97\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\U97\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\U97\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\U97\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\U97\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\U97\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\U97\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\U97\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\U97\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\U97\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\U97\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\U97\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\U97\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\U97\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\U97\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\U97\AppData\Local\Temp\surefire12372236808609879049\surefirebooter-20250424051053513_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\U97\AppData\Local\Temp\surefire6755419425011152649\surefirebooter-20250427044815593_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -58,136 +58,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="User can create an account with valid information" classname="Registration" time="14.602">
+  <testcase name="Clicking the &quot;Edit&quot; button should open a contact edit form or modal." classname="Contact List Edit" time="7.023">
     <system-out><![CDATA[
-@US001 @US001Positive
-Scenario: User can create an account with valid information &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:9&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                         &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                               &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Faker"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123"&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that logout button is displayed&amp#27;[0m               &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatLogoutButtonIsDisplayed()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user create via API&amp#27;[0m                   &amp#27;[90m# stepdefinitions.APIStepDefinitions.assert_that_the_user_create_via_api()&amp#27;[0m
+@US004 @US004EditButtonClick
+Scenario: Clicking the "Edit" button should open a contact edit form or modal. &amp#27;[90m# src/test/resources/features/US_004_EditContact.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter valid email(&amp#27;[0m&amp#27;[32m&amp#27;[1m"qwe@qwe.com"&amp#27;[0m&amp#27;[32m) for login&amp#27;[0m                              &amp#27;[90m# stepdefinitions.LoginStepDefinitions.enterValidEmailForLogin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter valid password(&amp#27;[0m&amp#27;[32m&amp#27;[1m"qweqweqwe"&amp#27;[0m&amp#27;[32m) for login&amp#27;[0m                              &amp#27;[90m# stepdefinitions.LoginStepDefinitions.enterValidPasswordForLogin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the login button&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.LoginStepDefinitions.the_user_clicks_the_login_button()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the exist contact&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.EditContactStepDefinitions.theUserClicksTheExistContact()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the edit button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.EditContactStepDefinitions.theUserClicksTheEditButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that edit contact header displayed&amp#27;[0m                               &amp#27;[90m# stepdefinitions.EditContactStepDefinitions.assertThatEditContactHeaderDisplayed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:10:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account if firstname is empty" classname="Registration" time="7.464">
-    <system-out><![CDATA[
-@US001 @US001EmptyFirstname
-Scenario: User cannot create account if firstname is empty &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:20&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                        &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Faker"&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123!"&amp#27;[0m                           &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"firstName"&amp#27;[0m   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m          &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:11:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account if lastname is empty" classname="Registration" time="7.673">
-    <system-out><![CDATA[
-@US001 @US001EmptyLastname
-Scenario: User cannot create account if lastname is empty &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:51&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                       &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Faker"&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123!"&amp#27;[0m                          &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"lastName"&amp#27;[0m   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m         &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:11:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account with email missing &apos;@&apos; symbol" classname="Registration" time="7.413">
-    <system-out><![CDATA[
-@US001 @US001EmailWithoutAt
-Scenario: User cannot create account with email missing '@' symbol &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:82&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndoeexample.com"&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123!"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Email is invalid"&amp#27;[0m    &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m                  &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:11:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account with email missing domain" classname="Registration" time="32.274">
-    <system-out><![CDATA[
-@US001 @US001EmailWithoutDomain
-Scenario: User cannot create account with email missing domain  &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:93&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"john@"&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123!"&amp#27;[0m                                &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Email is invalid"&amp#27;[0m &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m               &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:11:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account if email is empty" classname="Registration" time="15.94">
-    <system-out><![CDATA[
-@US001 @US001EmptyEmail
-Scenario: User cannot create account if email is empty          &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:104&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass_123!"&amp#27;[0m                                &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Email is invalid"&amp#27;[0m &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m               &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:12:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="User cannot create account if password is less than 7 characters" classname="Registration" time="8.832">
-    <system-out><![CDATA[
-@US001 @US001PasswordLessThan7
-Scenario: User cannot create account if password is less than 7 characters                 &amp#27;[90m# src/test/resources/features/US_001_Registration.feature:115&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to home page&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_goes_to_home_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks the sign up page&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32menter firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_firstname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doe"&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_lastname(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"john.doe@example.com"&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_email(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter password &amp#27;[0m&amp#27;[32m&amp#27;[1m"P1@a"&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter submit button&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.enter_submit_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert that error message is contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"shorter than the minimum allowed length (7)"&amp#27;[0m &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.assertThatErrorMessageIsContains(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclose driver&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.RegistrationStepDefinitions.closeDriver()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massert that the user cannot created via API&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.APIStepDefinitions.assertThatTheUserCannotCreatedViaAPI()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Apr 24, 2025 5:12:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 27, 2025 4:48:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
